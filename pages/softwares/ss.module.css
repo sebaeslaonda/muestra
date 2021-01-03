@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.container{
+   width: 100%;
+   display:flex;
+   flex-direction: column;
+   font-family: 'Quicksand', sans-serif;
+   justify-content:center;
+   align-items: center;
+   background-color:#dfdfdf;
+   color: rgb(48, 48, 48);
+   outline:none;
+
+}
+.contain{
+    margin-top:60px;
+    width: 95%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:70.2vh;
+}
+
+.bu{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:60%;
+    height:60%;
+    justify-content:space-around
+}
+.bu button{
+height: 200px;
+width: 200px;
+margin: 3px;
+border-radius: 3px;
+border:none;
+background:#D42A2A;
+cursor: pointer;
+outline: none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+transition: .3s;
+color:#fff
+}
+
+.container p{
+    font-size:24px;
+
+}
+
+.bu button:hover{
+    background:#f84a4a;
+}
+
+.bu button img{
+    height:100px;
+}
+
+@media (max-width:880px){
+    .bu{
+        width: 80%;
+        font-size: 16px;
+        }
+        .container p{
+            font-size:22px;
+
+        }
+
+}
+
+
+@media (max-width:580px){
+   .bu button img{
+       height:80px;
+   }
+   .bu button{
+       width:150px;
+       height:150px;
+   }
+        .container p{
+            font-size:15px;
+
+        }
+
+}

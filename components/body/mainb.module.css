@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.container{
+    background:#ffffff;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    justify-content:center;
+    align-items: center
+}
+.contain{
+    margin-top:60px;
+    width: 90%;
+    height:100%;
+    padding-bottom: 40px;
+}
+
+.licen{
+    display:flex;
+    width:100%;
+}
+
+.title{
+    color:rgb(0, 0, 0);
+    font-size:42px;
+    text-transform: uppercase;
+}
+
+.lorem{
+    font-size:20px;
+    color:rgb(129, 129, 129)
+}
+
+.h2{
+    width: 30%;
+}
+
+.imgs{
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.imgs img{
+    width:610px;
+}
+.work2{
+    width:100%;
+    background: #eceaea;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works{
+    width:90%;
+    padding-bottom: 30px;
+}
+
+.works img{
+    height:200px;
+}
+
+.work{
+    display:flex;
+    flex-direction:row
+}
+
+.courses{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    padding-right:20px;
+}
+
+.licensing{
+    width:50%;
+    padding-left:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.wtitle{
+    font-size:36px;
+}
+
+.coursesp, .licensingp{
+    transition:.3s;
+    font-size:29px;
+    color: rgb(87, 85, 85);
+    cursor: pointer;
+    margin-top:10px;
+    width: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.coursesp:hover , .licensingp:hover{
+    color:rgb(216, 0, 0);
+}
+
+
+.pp{
+    font-size:18px;
+    text-align: justify;
+}
+
+.ds{
+    color: rgb(87, 85, 85);
+}
+
+.tw{
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 50px;
+    background-image: url("/img/tw.png")
+}
+
+
+.work3{
+    background-color:#eceaea;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.relative{
+    color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    font-size:50px;
+    align-items: center;
+}
+
+.twp{
+    font-size:22px;
+}
+
+.go{
+    transition: .3s;
+    font-size: 30px;
+    background-color: #B13232;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height: 50px;
+    color:#ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.go:hover{
+    background-color:#fff;
+    color:#B13232
+}
+
+
+.pageh{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.nove{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.publicidad{
+    flex-direction: column;
+    background:#007CBD;
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    width:76%;
+}
+.publicidad p{
+    font-size:33px;
+    color:#ffffff;
+}
+.publicidad img{
+    width:70%;
+}
+.pack{
+    flex-direction: column;
+    padding:5px 0 40px 0;
+    background: #0072B7;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:30%;
+}
+.pack p{
+    font-size:28px;
+    color:#ffffff;
+}
+
+.suma{
+    color:#ffffff;
+    align-items: center;
+    height:70%;
+    font-size:29px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.suma .pluss{
+    font-size:21px;
+    margin-top: 10px;
+}
+.suma p{
+    margin: 0;
+}
+.suma img{
+    width:75px;
+    height:75px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.publicidad button{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin: 30px 0 ;
+    font-family: 'Lato';
+    font-weight: 1000;
+    padding:7px 100px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    transition: .3s;
+    color:#ffffff;
+    background: #29a59d;
+}
+
+.publicidad button:hover{
+    background: #015a70ab;
+}
+
+@media (max-width:1080px){
+    .h2{
+        width:43%;
+    }
+    .imgs img{
+        width:90%
+    }
+}
+
+@media (max-width:899px){
+    .h2{
+        width:43%;
+    }
+    .imgs{
+        width:57%;
+    }
+}
+
+@media (max-width:800px){
+    .h2{
+        width:43%;
+    }
+    .imgs img{
+        width:340px;
+        height:340px;
+    }
+    .pack img{
+        width:70px;
+        height:70px;
+    }
+}
+
+
+@media (max-width:720px){
+    .h2{
+        width:43%;
+    }
+    .imgs img{
+        width:300px;
+        height:300px;
+    }
+    .title{
+        font-size:35px;
+    }
+    .lorem{
+        font-size:19px
+    }
+
+    .wtitle p{
+        font-size:30px
+    }
+    .coursesp{
+        font-size:25px
+    }
+    .licensingp{
+        font-size:25px
+    }
+    .pp{
+        font-size:16px
+    }
+    .pack img{
+        width:50px;
+        height:50px;
+    }
+    .pack p, .publicidad p{
+        font-size:22px;
+    }
+    .suma p{
+        font-size:14px;
+    }
+    .publicidad button{
+        margin: 20px 0 ;
+        padding:5px 80px;
+    }
+}
+
+@media (max-width:657px){
+    .h2{
+        width:43%;
+    }
+    .imgs img{
+        width:270px;
+        height:270px;
+    }
+    .title{
+        font-size:30px;
+    }
+    .lorem{
+        font-size:18px
+    }
+
+    .wtitle p{
+        font-size:28px
+    }
+    .coursesp{
+        font-size:24px
+    }
+    .licensingp{
+        font-size:24px
+    }
+    .pp{
+        font-size:16px
+    }
+    .relative{
+        font-size:32px;
+    }
+    .twp{
+        font-size:17px;
+    }
+    .go{
+        font-size:18px;
+        width: 40px;
+        height:40px;
+        line-height:40px;
+    }
+    .publicidad img{
+        width:81%;
+    }
+}
+
+@media (max-width:570px){
+    .h2{
+        width:43%;
+    }
+    .imgs img{
+        width:240px;
+        height:240px;
+    }
+    .title{
+        font-size:29px;
+    }
+    .lorem{
+        font-size:17px
+    }
+
+    .wtitle p{
+        font-size:27px
+    }
+    .coursesp{
+        font-size:22px
+    }
+    .licensingp{
+        font-size:22px
+    }
+    .pp{
+        font-size:16px
+    }
+}
+
+@media (max-width:545px){
+    .h2{
+        width:43%;
+    }
+    .imgs img{
+        width:210px;
+        height:210px;
+    }
+    .title{
+        font-size:25px;
+    }
+    .lorem{
+        font-size:16px
+    }
+
+    .wtitle p{
+        font-size:25px
+    }
+    .coursesp{
+        font-size:20px
+    }
+    .licensingp{
+        font-size:20px
+    }
+    .pp{
+        font-size:15.5px
+    }
+}
+
+@media (max-width:550px){
+    .nove{
+        flex-direction: column;
+    }
+    .publicidad, .pack{
+        width:100%;
+    }
+    .suma{
+        flex-direction: row;
+    }
+    .publicidad button{
+        padding:4px 57px;
+        font-size:13px
+    }
+}
+
+@media (max-width:450px){
+    .imgs img{
+        width:190px;
+        height:190px;
+    }
+    .title{
+        font-size:23px;
+    }
+    .lorem{
+        font-size:15px
+    }
+    .work{
+        flex-direction: column;
+    }
+    .courses , .licensing{
+        width:100%;
+        margin: 5px 5px;
+        padding: 0
+    }
+    
+}
+
+@media (max-width:400px){
+    .imgs img{
+        width:170px;
+        height:170px;
+    }
+    .title{
+        font-size:21px;
+    }
+    .lorem{
+        font-size:13.5px
+    }
+    .work{
+        flex-direction: column;
+    }
+    .courses , .licensing{
+        width:100%;
+        margin: 5px 5px;
+        padding: 0
+    }
+    .wtitle p{
+        font-size:23px
+    }
+    .coursesp{
+        font-size:18px
+    }
+    .licensingp{
+        font-size:18px
+    }
+    .pp{
+        font-size:14.5px
+    }
+    .pack img{
+        width:34px;
+        height:34px;
+    }
+    .pack p, .publicidad p{
+        font-size:19px;
+    }
+}

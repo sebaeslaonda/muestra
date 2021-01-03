@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.container{
+    display:flex;
+    transition: .5s;
+    background:#ffffff;
+    width:100%;
+    height:50px;
+    justify-content:space-between;
+    position: fixed;
+    font-family: 'Quicksand', sans-serif;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.logo{
+    width:40%;
+    display:flex;
+    align-items:center;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.img{
+    position: absolute;
+    top:-5px;
+    cursor: pointer;
+    left: 40px;
+    width:180px;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.links{
+    display:flex;
+    align-items:center;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width:42%;
+}
+.links ul li img{
+    width:30px;
+    cursor: pointer;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.links ul{
+    width:100%;
+    list-style:none;
+    display:flex;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    justify-content:space-around;
+}
+
+.links ul a{
+    transition: .3s;
+    text-decoration: none;
+    color: rgb(139, 139, 139);-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.links ul a:hover{
+    color:rgb(177, 177, 177);
+}
+
+.container2{
+    display:flex;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background:#000000;
+    width:100%;
+    height:50px;
+    justify-content:space-between;
+    position: fixed;
+    transition: .5s;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img2{
+    display:none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.p{
+    transition: 2.5s;
+    display:none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.span{
+    font-size:21px;
+    letter-spacing: 0px;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+.p2{
+    cursor: pointer;
+    display:block;
+    transition: .5s;
+    font-size: 25px;
+    margin-left: 40px;;
+    color: #c91010;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width:790px){
+    .links{
+        width:50%
+    }
+}
+
+@media (max-width:670px){
+    .links ul li a{
+        width:50%;
+        font-size:14px;
+    }
+}
+
+
+@media (max-width:600px){
+    .links{
+        width:55%
+    }
+    .img{
+        left: 20px;
+    }
+}
+
+@media (max-width:530px){
+    .links{
+        width:70%
+    }
+    .links ul li a{
+        width:50%;
+        font-size:12.5px;
+    }
+
+    .img{
+        left: 20px;
+        width:130px;
+        top: 3px;
+    }
+
+    .links ul li img{
+        width: 23px;
+    }
+}
+
+@media (max-width:400px){
+    .links{
+        width:70%;
+    }
+    .links ul{
+        padding-left:10px
+    }
+    .links ul li a{
+        width:50%;
+        font-size:12.5px;
+    }
+
+    .img{
+        left: 17px;
+        width:120px;
+        top: 5px;
+    }
+
+    .links ul li img{
+        width: 23px;
+    }
+}
+
+@media (max-width:400px){
+    .links{
+        width:70%;
+    }
+    .links ul{
+        padding-left:10px
+    }
+    .links ul li a{
+        width:50%;
+        font-size:11.5px;
+    }
+
+    .img{
+        left: 10px;
+        width:110px;
+        top: 7px;
+    }
+
+    .links ul li img{
+        width: 20px;
+    }
+}
+
+
+
+

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+.container{
+   background:#f1efef;
+   width: 100%;
+   display:flex;
+   flex-direction: column;
+   font-family: 'Lato', sans-serif;
+   justify-content:center;
+   align-items: center;
+   color: rgb(48, 48, 48);
+}
+.contain{
+   margin-top:60px;
+   width: 95%;
+   height:100%;
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+}
+
+.contain .uno ,.contain .tres{
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   width: 33%;
+   height:500px;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.contain .dos{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   width:33%;
+   margin:0 20px;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.contain div{
+   width:100%;
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   align-items:center;
+   font-family: 'Lato';  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.conta img{
+   width:120%;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.tt{
+   color: rgb(51, 48, 48);
+   font-size:25px;
+   width:370px;
+   background-color: #c7c5c5;
+   padding: 30px;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.contain .relleno{
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items:start;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.whereis img{
+   width:30px;
+   margin: 0;
+   cursor: pointer;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.contain .where{
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items:start;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.whereis p{
+   transition:.3s;
+   cursor: pointer;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.contain .whereis{
+   display:flex;
+   flex-direction:row;
+   width:100%;
+   justify-content:space-between;
+   padding:0px;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.contain .whereis div{
+   display:flex;
+   flex-direction:row;
+   justify-content:start;
+   padding:0px;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.whereis p:hover{
+   color:#8f8c8c
+}
+
+.contain .servicios{
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items:start;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.contain .sugerencias{
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items:start;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.rtt{
+   font-size: 18px;  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   color:#000
+}
+
+@media (max-width:1150px){
+   .contain .whereis{
+      flex-direction:column;
+   }
+
+   .contain .whereis div{
+      justify-content: start;
+      margin:0;
+      padding:0;
+      height:30px
+   }
+}
+
+@media (max-width:860px){
+   .contain{
+      flex-direction:column;
+      align-items: center;
+   }
+
+   .contain .uno ,.contain .tres{
+      height: 400px;
+      width:100%
+   }
+
+   .conta img{
+      width:400px;
+      margin:20px 0 20px 0;
+   }
+
+   .contain .whereis{
+      flex-direction: row;
+   }
+}
+
+@media (max-width:430px){
+   .contain{
+      font-size:15px;
+      text-align:justify
+   }
+   .conta img{
+      width:340px;
+      margin:20px 0 20px 0;
+   }
+}
