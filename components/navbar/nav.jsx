@@ -14,7 +14,7 @@ const Nav = ()=>{
                 <li><Link href="contact"><a>Información </a></Link></li>
                 <li><Link href="softwares"><a>Software </a></Link></li>
                 <li><Link href="courses"><a>Cursos</a></Link></li>
-                <li><img src="img/insta.png" onClick={()=>window.open('https://www.instagram.com/pconocimientos/')}/></li>
+                <li><img src="img/insta.png"/></li>
             </ul>
         </div>
     </div>
