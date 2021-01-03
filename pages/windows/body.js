@@ -1,9 +1,10 @@
 import P1 from './licencias.json';
 import s from '../softwares/s.module.css';
-import {useState,useEffect} from 'react'
+import {useState,useEffect,useRef} from 'react'
 
 
 const Fe = ()=>{
+    const marg = useRef();
     //mostrar
     let licencias = P1;
     const [pantalla,setPantalla] = useState([]);
@@ -47,7 +48,9 @@ useEffect(()=>{
             setH(2);
         }
     }
+
 },[busca]);
+
 
 useEffect(()=>{
     if(busca.length==0){
@@ -68,9 +71,17 @@ useEffect(()=>{
         }
         window.scrollTo(0, 0);
     }
-},[seccion,busca,]);
 
+},[seccion,busca]);
 
+useEffect(()=>{
+    if(pantalla.length != 0){
+        marg.current.style.marginTop =  '5px'
+    }else{
+        marg.current.style.marginTop =  '200px'
+        
+    }
+},[pantalla])
     return(
         <div className={s.container}>
             <div className={s.contain}>
@@ -94,18 +105,15 @@ useEffect(()=>{
                                 <p className={s.size}>{info.size}</p>
                                 <p className={s.des}>{info.des}</p>
                                 <div className={s.button}><button className={s.button} onClick={()=>{
-                                    window.open(`https://api.whatsapp.com/send?phone=526682581881&text=Hola!%2C%20me%20interesa%20el%20software%20de%20${info.name}`)
+                                    window.open(`https://api.whatsapp.com/send?phone=56912345678&text=Hola!%2C%20me%20interesa%20el%20software%20de%20${info.name}`)
                                 }}>Consultar</button>
-                                 <button className={s.button} onClick={()=>{
-                                    window.open(info.pay)
-                                }}>Comprar</button></div>
-                                
+                                </div>
                             </div>
                         </div>
                     )
                 }
                 </div>
-                    <div className={s.numbers}>
+                    <div className={s.numbers} ref={marg}>
                         {
                             h == 1 ? largo.map(e=> numero(e)) :  largo2.map(e=>numero2(e))
                         }

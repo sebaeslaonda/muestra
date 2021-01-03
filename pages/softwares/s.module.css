@@ -74,6 +74,7 @@
 .numbers{
    outline: none;
    display: flex;
+   margin-top: 5px;
    flex-direction:row;
    width:57%;
    justify-content:center;

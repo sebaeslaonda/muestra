@@ -89,7 +89,7 @@ useEffect(()=>{
                                 <p className={s.size}>{info.size}</p>
                                 <p className={s.des}>{info.des}</p>
                                 <button className={s.button} onClick={()=>{
-                                    window.open(`https://api.whatsapp.com/send?phone=526682581881&text=Hola!%2C%20me%20interesa%20el%20software%20de%20${info.name}`)
+                                    window.open(`https://api.whatsapp.com/send?phone=56912345678&text=Hola!%2C%20me%20interesa%20el%20software%20de%20${info.name}`)
                                 }}>Lo quiero</button>
                             </div>
                         </div>
