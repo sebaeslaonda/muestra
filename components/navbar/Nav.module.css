@@ -15,6 +15,9 @@
     display:flex;
     align-items:center;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.lo{
+    margin:10px;
+}
 
 .img{
     position: absolute;
